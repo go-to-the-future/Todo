@@ -14,6 +14,7 @@
 		8239AD61221BDAC100E33B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8239AD5F221BDAC100E33B0C /* LaunchScreen.storyboard */; };
 		8239AD6C221BDAC100E33B0C /* TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8239AD6B221BDAC100E33B0C /* TodoTests.swift */; };
 		8239AD77221BDAC100E33B0C /* TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8239AD76221BDAC100E33B0C /* TodoUITests.swift */; };
+		8239AD85221BDDAF00E33B0C /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8239AD84221BDDAF00E33B0C /* AddController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8239AD72221BDAC100E33B0C /* TodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8239AD76221BDAC100E33B0C /* TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITests.swift; sourceTree = "<group>"; };
 		8239AD78221BDAC100E33B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8239AD84221BDDAF00E33B0C /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8239AD55221BDAC000E33B0C /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				8239AD84221BDDAF00E33B0C /* AddController.swift */,
 				8239AD56221BDAC000E33B0C /* AppDelegate.swift */,
 				8239AD58221BDAC000E33B0C /* ViewController.swift */,
 				8239AD5A221BDAC000E33B0C /* Main.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8239AD85221BDDAF00E33B0C /* AddController.swift in Sources */,
 				8239AD59221BDAC000E33B0C /* ViewController.swift in Sources */,
 				8239AD57221BDAC000E33B0C /* AppDelegate.swift in Sources */,
 			);
